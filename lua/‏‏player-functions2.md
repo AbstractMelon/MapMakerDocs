@@ -1,6 +1,6 @@
-# Player Functions
+# Player
 
-These are the functions related to the `Player` type.
+These are the properties and functions of the `Player` type
 
 ## Base Properties
 
