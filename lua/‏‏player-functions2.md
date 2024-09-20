@@ -6,21 +6,21 @@ These are the functions related to the `Player` type.
 
 ### Position
 The current position of the player
-```
+```lua
 Player.GetPosition() -- reutrns a Vec2
 ```
 
-```
+```lua
 Player.SetPosition(number x, number y)
 ```
 
 ### Mass
 The mass of the player
-```
+```lua
 Player.GetMass()
 ```
 
-```
+```lua
 Player.SetMass(number mass)
 ```
 
@@ -28,31 +28,31 @@ Player.SetMass(number mass)
 
 ### Speed
 The current speed of the player
-```
+```lua
 Player.GetSpeed()
 ```
 
-```
+```lua
 Player.SetSpeed(number speed)
 ```
 
 ### Grounded Speed
 The speed of the player when standing on a platform
-```
+```lua
 Player.GetGroundedSpeed()
 ```
 
-```
+```lua
 Player.SetGroundedSpeed(number speed)
 ```
 
 ### Max Speed
 The maximum speed of the player
-```
+```lua
 Player.GetMaxSpeed()
 ```
 
-```
+```lua
 Player.SetMaxSpeed(number maxSpeed)
 ```
 
@@ -60,41 +60,41 @@ Player.SetMaxSpeed(number maxSpeed)
 
 ### Acceleration
 The acceleration speed of the player
-```
+```lua
 Player.GetAccel()
 ```
 
-```
+```lua
 Player.SetAccel(number accel)
 ```
 
 ### Air Accel
 The aerial acceleration speed of the player
-```
+```lua
 Player.GetAirAccel()
 ```
 
-```
+```lua
 Player.SetAirAccel(number airAccel)
 ```
 
 ### Gravity Accel
 The gravity affecting the player
-```
+```lua
 Player.GetGravityAccel()
 ```
 
-```
+```lua
 Player.SetGravityAccel(number gravity)
 ```
 
 ### Terminal Velocity
 The max speed the player can fall
-```
+```lua
 Player.GetGravityMaxFallSpeed()
 ```
 
-```
+```lua
 Player.SetGravityMaxFallSpeed(number maxFallSpeed)
 ```
 
@@ -102,31 +102,31 @@ Player.SetGravityMaxFallSpeed(number maxFallSpeed)
 
 ### Jump Strength
 The jump strength of the player
-```
+```lua
 Player.GetJumpStrength()
 ```
 
-```
+```lua
 Player.SetJumpStrength(number jumpStrength)
 ```
 
 ### Jump Extra X Strength
 ???????? i dont fucking know
-```
+```lua
 Player.GetJumpExtraXStrength()
 ```
 
-```
+```lua
 Player.SetJumpExtraXStrength(number jumpExtraStrength)
 ```
 
 ### Jump kept Momentum
 ???????? i dont fucking know #2
-```
+```lua
 Player.GetJumpKeptMomentum()
 ```
 
-```
+```lua
 Player.SetJumpKeptMomentum(number jumpKeptMumentum)
 ```
 
