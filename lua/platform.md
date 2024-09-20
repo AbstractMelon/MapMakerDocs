@@ -1,11 +1,12 @@
 # Platform
 
 These are the properties and functions of the `Platform` type.
+
 ~ note that Platform is for both Platforms and Boulders
 
 ## Base Properties
 
-### Home - Doesn't Work For Boulder!
+### Home - <span style="color: red;">Doesn't Work For Boulder!</span>
 The position the platform wants to be in
 ```lua
 Platform.GetHome() -- reutrns a Vec2
@@ -15,7 +16,7 @@ Platform.GetHome() -- reutrns a Vec2
 Platform.SetHome(number x, number y)
 ```
 
-### Home Rotation - Doesn't Work For Boulder!
+### Home Rotation - <span style="color: red;">Doesn't Work For Boulder!</span>
 The rotation the platform wants to be in
 ```lua
 Platform.GetHomeRot()

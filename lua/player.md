@@ -245,7 +245,7 @@ Gets the cooldown time of an ability
 ~ returns 1,000,000 if no ability in the slot
 
 ```
-Player.GetAbilityMaxCooldown(numbert index)
+Player.GetAbilityMaxCooldown(number index)
 ```
 
 Example:
