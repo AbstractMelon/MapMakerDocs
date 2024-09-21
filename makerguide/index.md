@@ -17,7 +17,7 @@ Check out the sections below to dive into what you can do:
 - [What Do I Do Now??](./finish.md)  
   See what to do after you finished creating your awesome map!
 
-- [Lua Help Please](lua/index.md)  
+- [Lua Help Please](~/lua/)  
   Check out this nice batch of helpful lua pages just for you to learn how to use in your maps!
 
 ---
