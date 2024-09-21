@@ -4,23 +4,29 @@ Welcome to the Lua API docs the bopl map maker! Here, you’ll find all the  fun
 
 ## Quick Links
 
-- [Sequence](./sequence.md)  
-  Info about sequences, which are tables with numeric keys in order.
+- [Arrays](./sequence.md)  
+  Info about arrays, which are tables with numeric keys in order.
 
 - [Notes](./notes.md)  
   Important things like camera boundaries and water height.
 
-- [Global Functions](./global-functions.md)  
-  A full list of functions for things like spawning objects, handling platforms, etc.
+- [Spawn Functions](./spawn-functions.md)  
+  A list of functions related to spawning objects.
 
-- [Player Functions](./player-functions.md)  
-  Functions to get or change player info.
+- [Raycast Functions](./spawn-functions.md)  
+  Functions the get/shoot an object/ray from the scene based on a point, angle, or index.
 
-- [Platform Functions](./platform-functions.md)  
-  How to work with platforms and boulders.
+- [Miscellaneous Functions](./misc-functions.md)  
+  Global functions that aren't specific to any particular category.
 
-- [BoplBody Functions](./boplbody-functions.md)  
-  How to use the `BoplBody` type.
+- [Player](./player.md)  
+  Everything about the `Player` class: properties, methods, and functions.
+
+- [Platform](./platform.md)   
+  Everything about the `Platform` class: properties, methods, and functions.
+
+- [BoplBody](./bopl-body.md)  
+  Everything about the `Platform` class: properties, methods, and functions.
 
 - [Errors](./errors.md)  
   Understanding error handling in Lua.

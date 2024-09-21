@@ -9,7 +9,7 @@ These are the properties and functions of the `Platform` type.
 ### Home - <span style="color: red;">Doesn't Work For Boulder!</span>
 The position the platform wants to be in
 ```lua
-Platform.GetHome() -- reutrns a Vec2
+x, y = Platform.GetHome() -- reutrns a Vec2
 ```
 
 ```lua
@@ -19,7 +19,7 @@ Platform.SetHome(number x, number y)
 ### Home Rotation - <span style="color: red;">Doesn't Work For Boulder!</span>
 The rotation the platform wants to be in
 ```lua
-Platform.GetHomeRot()
+number Platform.GetHomeRot()
 ```
 
 ```lua
@@ -29,7 +29,7 @@ Platform.SetHomeRot(number homeRot)
 ### Scale
 The scale of the platform
 ```lua
-Platform.GetScale()
+number Platform.GetScale()
 ```
 
 ```lua
@@ -42,7 +42,7 @@ Platform.SetScale(number scale)
 Returns the physics body `BoplBody` of the platform or nil if not found
 
 ```
-Platform.GetBoplBody()
+BoplBody Platform.GetBoplBody()
 ```
 
 Example:
@@ -56,7 +56,7 @@ movingBody.SetPos(x + speed, y)
 Returns true if the platform is resizable in both axes (slime platform, spawned platform, custon platform)
 
 ```
-Platform.IsResizable()
+bool Platform.IsResizable()
 ```
 
 Example:
@@ -70,7 +70,7 @@ end
 Returns true if the platform is a boulder
 
 ```
-Platform.IsBoulder()
+bool Platform.IsBoulder()
 ```
 
 Example:
@@ -85,7 +85,7 @@ Returns the platform's width, height, and radius
 ~ width and height are distances from edge to center - radius. to calculate them in bopl units you do `2(width + radius)` for width and `2(height + radius)` for height.
 
 ```
-Platform.GetPlatformSize()
+width, height, radius = Platform.GetPlatformSize()
 ```
 
 Example:
@@ -97,7 +97,7 @@ width, height, radius = plat.GetPlatformSize()
 Returns the true width and height of the platform taking into account rotations.
 
 ```
-Platform.GetTrueWidthAndHeight()
+width, height = Platform.GetTrueWidthAndHeight()
 ```
 
 Example:

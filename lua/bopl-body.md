@@ -7,7 +7,7 @@ Arrow, RocketEngine, Mine, Tesla, AbilityPickup, Missile, MatchoBoulder, Spike, 
 
 ### Position
 ```lua
-BoplBody.GetPos() -- reutrns a Vec2
+x, y = BoplBody.GetPos() -- reutrns a Vec2
 ```
 
 ```lua
@@ -16,7 +16,7 @@ BoplBody.SetPos(number x, number y)
 
 ### Velocity
 ```lua
-BoplBody.GetVelocity()
+number BoplBody.GetVelocity()
 ```
 
 ```lua
@@ -26,7 +26,7 @@ BoplBody.SetVelocity(number velocity)
 ### Rotation
 The rotation of the bopl body
 ```lua
-BoplBody.GetRot()
+number BoplBody.GetRot()
 ```
 
 ```lua
@@ -35,7 +35,7 @@ BoplBody.SetRot(number rot)
 
 ### Scale
 ```lua
-BoplBody.GetScale()
+number BoplBody.GetScale()
 ```
 
 ```lua
@@ -44,7 +44,7 @@ BoplBody.SetScale(number scale)
 
 ### Mass
 ```lua
-BoplBody.GetMass()
+number BoplBody.GetMass()
 ```
 
 ```lua

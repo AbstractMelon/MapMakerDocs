@@ -7,7 +7,7 @@ These are the properties and functions of the `Player` type
 ### Position
 The current position of the player
 ```lua
-Player.GetPosition() -- reutrns a Vec2
+x, y = Player.GetPosition() -- reutrns a Vec2
 ```
 
 ```lua
@@ -17,7 +17,7 @@ Player.SetPosition(number x, number y)
 ### Mass
 The mass of the player
 ```lua
-Player.GetMass()
+number Player.GetMass()
 ```
 
 ```lua
@@ -29,7 +29,7 @@ Player.SetMass(number mass)
 ### Speed
 The current speed of the player
 ```lua
-Player.GetSpeed()
+number Player.GetSpeed()
 ```
 
 ```lua
@@ -39,7 +39,7 @@ Player.SetSpeed(number speed)
 ### Grounded Speed
 The speed of the player when standing on a platform
 ```lua
-Player.GetGroundedSpeed()
+number Player.GetGroundedSpeed()
 ```
 
 ```lua
@@ -49,7 +49,7 @@ Player.SetGroundedSpeed(number speed)
 ### Max Speed
 The maximum speed of the player
 ```lua
-Player.GetMaxSpeed()
+number Player.GetMaxSpeed()
 ```
 
 ```lua
@@ -61,7 +61,7 @@ Player.SetMaxSpeed(number maxSpeed)
 ### Acceleration
 The acceleration speed of the player
 ```lua
-Player.GetAccel()
+number layer.GetAccel()
 ```
 
 ```lua
@@ -71,7 +71,7 @@ Player.SetAccel(number accel)
 ### Air Accel
 The aerial acceleration speed of the player
 ```lua
-Player.GetAirAccel()
+number Player.GetAirAccel()
 ```
 
 ```lua
@@ -81,7 +81,7 @@ Player.SetAirAccel(number airAccel)
 ### Gravity Accel
 The gravity affecting the player
 ```lua
-Player.GetGravityAccel()
+number Player.GetGravityAccel()
 ```
 
 ```lua
@@ -91,7 +91,7 @@ Player.SetGravityAccel(number gravity)
 ### Terminal Velocity
 The max speed the player can fall
 ```lua
-Player.GetGravityMaxFallSpeed()
+number Player.GetGravityMaxFallSpeed()
 ```
 
 ```lua
@@ -103,7 +103,7 @@ Player.SetGravityMaxFallSpeed(number maxFallSpeed)
 ### Jump Strength
 The jump strength of the player
 ```lua
-Player.GetJumpStrength()
+number Player.GetJumpStrength()
 ```
 
 ```lua
@@ -113,7 +113,7 @@ Player.SetJumpStrength(number jumpStrength)
 ### Jump Extra X Strength
 ???????? i dont fucking know
 ```lua
-Player.GetJumpExtraXStrength()
+number Player.GetJumpExtraXStrength()
 ```
 
 ```lua
@@ -123,7 +123,7 @@ Player.SetJumpExtraXStrength(number jumpExtraStrength)
 ### Jump kept Momentum
 ???????? i dont fucking know #2
 ```lua
-Player.GetJumpKeptMomentum()
+number Player.GetJumpKeptMomentum()
 ```
 
 ```lua
@@ -136,7 +136,7 @@ Player.SetJumpKeptMomentum(number jumpKeptMumentum)
 Gets the platform the player is on, if airborne returns nil.
 
 ```
-Player.GetPlatform()
+Platform Player.GetPlatform()
 ```
 
 Example:
@@ -160,7 +160,7 @@ player1.AddForce(0, 10) -- launches the player upwards
 returns true if the player is currently blinked.
 
 ```
-Player.IsDisappeared()
+bool Player.IsDisappeared()
 ```
 
 Example:
@@ -177,7 +177,7 @@ Returns the ability at `index` of the player as string
 index: 1 - left, 2 - up, 3 - right
 
 ```
-Player.GetAbility(number index)
+string Player.GetAbility(number index)
 ```
 
 Example:
@@ -208,7 +208,7 @@ player3.SetAbility(3, "Grenade", false)
 Gets the # of abilities a player has currently
 
 ```
-Player.GetAbilityCount()
+number Player.GetAbilityCount()
 ```
 
 Example:
@@ -220,7 +220,7 @@ count = player.GetAbilityCount()
 Gets the remaining cooldown of the ability in seconds
 
 ```
-Player.GetAbilityCooldownRemaining(numbert index)
+number Player.GetAbilityCooldownRemaining(numbert index)
 ```
 
 Example:
@@ -245,7 +245,7 @@ Gets the cooldown time of an ability
 ~ returns 1,000,000 if no ability in the slot
 
 ```
-Player.GetAbilityMaxCooldown(number index)
+number Player.GetAbilityMaxCooldown(number index)
 ```
 
 Example:

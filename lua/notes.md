@@ -1,9 +1,9 @@
 # Notes
 
 - **Camera Boundaries**:
-  - Xmin: `-97.27`
-  - XMax: `97.6`
-  - YMin: `-26`
-  - YMax: `40`
+  - Xmin: `-96.2`
+  - XMax: `96.7`
+  - YMin: `-22`
+  - YMax: `38`
 
-- **Water Height**: `-11.3`
+- **Water Height**: `-11.2`
