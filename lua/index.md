@@ -4,7 +4,7 @@ Welcome to the Lua API docs the bopl map maker! Here, you’ll find all the  fun
 
 ## Quick Links
 
-- [Arrays](./sequence.md)  
+- [Arrays](./array.md)  
   Info about arrays, which are tables with numeric keys in order.
 
 - [Notes](./notes.md)  
