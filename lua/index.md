@@ -4,6 +4,9 @@ Welcome to the Lua API docs the bopl map maker! Here, you’ll find all the  fun
 
 ## Quick Links
 
+- [Useful Code Snippets](./useful-snippets.md)  
+  Commonly used useful lua code snippets I've gathered for you to implement into your map easily.
+
 - [Arrays](./array.md)  
   Info about arrays, which are tables with numeric keys in order.
 
