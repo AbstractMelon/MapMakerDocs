@@ -92,7 +92,7 @@ end
 ## Active Functions
 
 ### Add Force
-Launches the bopl body with a given x and y strength. the final velosity depends on the objects mass.
+Launches the bopl body with a given x and y strength. the final velocity depends on the objects mass.
 
 ```
 BoplBody.AddForce(number x, number y)
