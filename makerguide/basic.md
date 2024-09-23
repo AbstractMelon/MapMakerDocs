@@ -1,11 +1,11 @@
-# Map Making 101
-
-Here you will learn how to make bopl battle maps just like those you see in the official game!
-
 # The Sidebar
 
-The sidebar is the inventory of the map maker, here are everything you need to build maps. 
-It has platforms of every type! (switch types using the buttons on the left)
+The sidebar is the inventory of the map maker, containing everything you need to build awesome maps.
+It has platforms of every type! 
+
+::: note switch types using the buttons on the left :::
+
+
 
 ## Creating Platforms
 
@@ -29,9 +29,13 @@ Alternatively, you can hold `ctrl` and drag a platform to clone it into the worl
 
 Okay lets say you created a platform which you don't want anymore, there are two simple ways to remove it completely:
 
-* drag it back into the sidebar
+* Drag it back into the sidebar
 
-* click it, and press `del`
+* Click it, and press `del`
+
+
+---
+
 
 # Platform Handling
 
@@ -46,6 +50,10 @@ To move your platform, just drag it and plop it wherever you want it to be. That
 
 If you want to you can also just modify the platform's position from the Inspector (more on that later)
 
+
+---
+
+
 # The Marker
 
 Hover over your platform with the mouse, see that box in the middle? that's the marker.
@@ -53,7 +61,7 @@ Hover over your platform with the mouse, see that box in the middle? that's the 
 If it's white that means you are in **scaling mode**,
 if it's black, you are in **rotating mode**.
 
-::: Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
+::: note Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
 
 ## Scaling Platforms
 
@@ -63,8 +71,8 @@ if it's black, you are in **rotating mode**.
 </video>
 
 To scale a platform, just hover it and drag the marker to resize.
-* Dragging it upwards = increase scale
-* Dragging it downwards = decrease scale
+* **Dragging it upwards** = increase scale
+* **Dragging it downwards** = decrease scale
 
 ::: tip
 If you want to scale the platform not arbitrarily, just hold down `shift` while scaling and the scale will increase/decrease by multiples of 0.1
