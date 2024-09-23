@@ -2,12 +2,12 @@
 
 Here you will learn how to make bopl battle maps just like those you see in the official game!
 
-## The Sidebar
+# The Sidebar
 
 The sidebar is the inventory of the map maker, here are everything you need to build maps. 
 It has platforms of every type! (switch types using the buttons on the left)
 
-### Creating Platforms
+## Creating Platforms
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/create.mp4" type="video/mp4">
@@ -20,7 +20,12 @@ To create a platform, just drag your platform of choice onto the world and voila
 Alternatively, you can hold `ctrl` and drag a platform to clone it into the world
 :::
 
-### Removing Platforms
+<video autoplay loop muted playsinline>
+  <source src="./gifs/clone.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Removing Platforms
 
 Okay lets say you created a platform which you don't want anymore, there are two simple ways to remove it completely:
 
@@ -28,9 +33,9 @@ Okay lets say you created a platform which you don't want anymore, there are two
 
 * click it, and press `del`
 
-## Platform Handling
+# Platform Handling
 
-### Moving Platforms
+## Moving Platforms
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/drag.mp4" type="video/mp4">
@@ -41,16 +46,16 @@ To move your platform, just drag it and plop it wherever you want it to be. That
 
 If you want to you can also just modify the platform's position from the Inspector (more on that later)
 
-## The Marker
+# The Marker
 
 Hover over your platform with the mouse, see that box in the middle? that's the marker.
 
 If it's white that means you are in **scaling mode**,
 if it's black, you are in **rotating mode**.
 
-Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode.
+::: Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
 
-### Scaling Platforms
+## Scaling Platforms
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/scale.mp4" type="video/mp4">
@@ -65,7 +70,7 @@ To scale a platform, just hover it and drag the marker to resize.
 If you want to scale the platform not arbitrarily, just hold down `shift` while scaling and the scale will increase/decrease by multiples of 0.1
 :::
 
-### Rotating Platforms
+## Rotating Platforms
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/rotate.mp4" type="video/mp4">
