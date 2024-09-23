@@ -36,4 +36,7 @@ To switch between them just do this: press `s` for scaling, and `r` for rotating
 
 Here’s an example of an image:
 
-![Scaling](./gifs/scale.mp4)
+<video controls autoplay loop muted>
+  <source src="./gifs/scale.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
