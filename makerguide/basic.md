@@ -29,14 +29,12 @@ To move your platform, just drag it and plop it wherever you want it to be. That
 
 ### Scaling/Rotating Platforms
 
-To scale/rotate your platform, start with hovering it with the mouse.
-see that box in the middle? if it's white that means you are in **scaling mode** if it's black, you are in **rotating mode**.
-
-To switch between them just do this: press `s` for scaling, and `r` for rotating.
-
-Here’s an example of an image:
-
-<video controls autoplay loop muted>
+<video autoplay loop muted playsinline>
   <source src="./gifs/scale.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+To scale/rotate your platform, start with hovering it with the mouse.
+see that box in the middle? if it's white that means you are in **scaling mode** if it's black, you are in **rotating mode**.
+
+To switch between them just do this: press `s` for scaling, and `r` for rotating.s
