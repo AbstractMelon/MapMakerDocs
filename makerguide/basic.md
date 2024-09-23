@@ -33,3 +33,7 @@ To scale/rotate your platform, start with hovering it with the mouse.
 see that box in the middle? if it's white that means you are in **scaling mode** if it's black, you are in **rotating mode**.
 
 To switch between them just do this: press `s` for scaling, and `r` for rotating.
+
+Here’s an example of an image:
+
+![Scaling](./gifs/scale.mp4)
