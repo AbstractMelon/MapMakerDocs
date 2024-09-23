@@ -3,7 +3,8 @@
 The sidebar is the inventory of the map maker, containing everything you need to build awesome maps.
 It has platforms of every type! 
 
-::: info switch types using the buttons on the left :::
+::: info switch types using the buttons on the left
+:::
 
 
 
@@ -57,7 +58,8 @@ Hover over your platform with the mouse, see that box in the middle? that's the 
 If it's white that means you are in **scaling mode**,
 if it's black, you are in **rotating mode**.
 
-::: info Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
+::: info Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. 
+:::
 
 ## Scaling Platforms
 
