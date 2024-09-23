@@ -3,7 +3,7 @@
 The sidebar is the inventory of the map maker, containing everything you need to build awesome maps.
 It has platforms of every type! 
 
-::: note switch types using the buttons on the left :::
+::: info switch types using the buttons on the left :::
 
 
 
@@ -16,9 +16,9 @@ It has platforms of every type!
 
 To create a platform, just drag your platform of choice onto the world and voila!
 
-::: tip
 Alternatively, you can hold `ctrl` and drag a platform to clone it into the world
-:::
+
+
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/clone.mp4" type="video/mp4">
@@ -33,11 +33,7 @@ Okay lets say you created a platform which you don't want anymore, there are two
 
 * Click it, and press `del`
 
-
 ---
-
-
-# Platform Handling
 
 ## Moving Platforms
 
@@ -61,7 +57,7 @@ Hover over your platform with the mouse, see that box in the middle? that's the 
 If it's white that means you are in **scaling mode**,
 if it's black, you are in **rotating mode**.
 
-::: note Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
+::: info Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. :::
 
 ## Scaling Platforms
 
