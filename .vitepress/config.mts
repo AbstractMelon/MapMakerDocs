@@ -12,6 +12,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Lua Docs', link: '/lua/' },
+      { text: 'Maker\'s Guide', link: '/makersguide/' },
       { text: 'Tips', link: '/tips/' },
       { text: 'Troubleshooting', link: '/troubleshooting/' },
       { text: 'Development', link: '/development/' },
@@ -23,6 +24,7 @@ export default defineConfig({
         text: 'Guide',
         items: [
           { text: 'Lua Docs', link: '/lua/' },
+          { text: 'Maker\'s Guide', link: '/makersguide/' },
           { text: 'Tips', link: '/tips/' },
           { text: 'Troubleshooting', link: '/troubleshooting/' },
           { text: 'Development', link: '/development/' },
