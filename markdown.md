@@ -49,7 +49,7 @@ You can create links like this: [VitePress Documentation](https://vitepress.vuej
 
 Here’s an example of an image:
 
-![VitePress Logo](https://vitepress.vuejs.org/logo.svg)
+![Hamburgur](https://www.allrecipes.com/thmb/JlDNESmNA3QlJIVuXaQvRD4-gfM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-ripe-watermelon-getty-4x3-2d1e62fdf6c547bea8d9f8f72e8aa175.jpg)
 
 ## Code
 
