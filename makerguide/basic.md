@@ -1,10 +1,7 @@
 # The Sidebar
 
 The sidebar is the inventory of the map maker, containing everything you need to build awesome maps.
-It has platforms of every type! 
-
-::: info switch types using the buttons on the left
-:::
+It has platforms of every type! (switch types using the buttons on the left)
 
 
 
@@ -17,16 +14,16 @@ It has platforms of every type!
 
 To create a platform, just drag your platform of choice onto the world and voila!
 
+::: note
 Alternatively, you can hold `ctrl` and drag a platform to clone it into the world
-
-
 
 <video autoplay loop muted playsinline>
   <source src="./gifs/clone.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+:::
 
-## Removing Platforms
+## <span style="color: red;"> Removing Platforms </span>
 
 Okay lets say you created a platform which you don't want anymore, there are two simple ways to remove it completely:
 
@@ -34,7 +31,7 @@ Okay lets say you created a platform which you don't want anymore, there are two
 
 * Click it, and press `del`
 
----
+<br>
 
 ## Moving Platforms
 
@@ -47,9 +44,9 @@ To move your platform, just drag it and plop it wherever you want it to be. That
 
 If you want to you can also just modify the platform's position from the Inspector (more on that later)
 
-
+<br>
 ---
-
+<br>
 
 # The Marker
 
@@ -58,7 +55,7 @@ Hover over your platform with the mouse, see that box in the middle? that's the 
 If it's white that means you are in **scaling mode**,
 if it's black, you are in **rotating mode**.
 
-::: info Switching between the two is easy, just perss `s` to enter scaling mode and `r` to enter rotating mode. 
+::: info Switching between the two is easy, just perss `s` to enter scaling mode and `r` for rotating mode. 
 :::
 
 ## Scaling Platforms
@@ -69,8 +66,8 @@ if it's black, you are in **rotating mode**.
 </video>
 
 To scale a platform, just hover it and drag the marker to resize.
-* **Dragging it upwards** = increase scale
-* **Dragging it downwards** = decrease scale
+* **upwards** = increase scale
+* **downwards** = decrease scale
 
 ::: tip
 If you want to scale the platform not arbitrarily, just hold down `shift` while scaling and the scale will increase/decrease by multiples of 0.1
@@ -87,4 +84,9 @@ To rotate a platform, just hover it and drag the marker around, the platform wil
 
 ::: tip
 If you want to rotate the platform not arbitrarily, just hold down `shift` while rotating and the rotation will inch by 15 angle multiples while rotating.
+
+<video autoplay loop muted playsinline>
+  <source src="./gifs/rotate-shift.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 :::
