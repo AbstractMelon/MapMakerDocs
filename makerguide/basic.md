@@ -95,3 +95,30 @@ If you want to rotate the platform not arbitrarily, just hold down `shift` while
   Your browser does not support the video tag.
 </video>
 :::
+
+<br>
+
+# <span style="color: yellow;"> Spawn Points </span>
+
+<img src="./gifs/spawns.png" alt="spawn points" />
+
+Spawn points are the items that decide where the players will spawn on the map, any map is required to have **only** 4 of them (or 1 spawn all) for it to be able to save.
+
+Spawn points can be accessed by clicking the yellow button on the left of the sidebar, with numbers representing the player they spawn (except for spawn all which contains a bopl)
+
+::: tip
+cloning a spawn point will create *the next* spawn point (except for spawn all)
+
+<video autoplay loop muted playsinline style="border-radius: 10px">
+  <source src="./gifs/clone-spawn.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+:::
+
+## Spawn All
+
+<img src="./gifs/spawn-all.png" alt="spawn all" />
+
+The spawn-all spawn point is an item that when placed on the map, automatically spawns every player in the spot it is in.
+
+* much easier than dragging 4 spawn points to the same position.
