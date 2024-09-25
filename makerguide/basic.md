@@ -17,7 +17,7 @@ To create a platform, just drag your platform of choice onto the world and voila
 ::: info
 Alternatively, you can hold `ctrl` and drag a platform to clone it into the world
 
-<video autoplay loop muted playsinline>
+<video autoplay loop muted playsinline style="border-radius: 10px">
   <source src="./gifs/clone.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -30,8 +30,6 @@ Okay lets say you created a platform which you don't want anymore, there are two
 * Drag it back into the sidebar
 
 * Click it, and press `del`
-
-<br>
 
 ## Moving Platforms
 
