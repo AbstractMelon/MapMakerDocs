@@ -96,7 +96,11 @@ If you want to rotate the platform not arbitrarily, just hold down `shift` while
 
 <br>
 
-# Spawn Points
+---
+
+<br>
+
+## Spawn Points
 
 <img src="./gifs/spawns.png" alt="spawn points" style="border-radius: 5px;" />
 
