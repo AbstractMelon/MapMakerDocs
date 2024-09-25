@@ -51,10 +51,6 @@ If you want to move your platform only on the x/y axis, just move it while press
 
 <br>
 
----
-
-<br>
-
 # The Marker
 
 Hover over your platform with the mouse, see that box in the middle? that's the marker.
