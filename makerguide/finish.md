@@ -20,7 +20,7 @@ and so much more! We thoroughly encourage you to check out the [Lua Docs](../lua
 
 First, open the menu and enter the [*save dialogue*](#save-dialogue)
 
-([for more info about the menu](/ui.md))
+([for more info about the menu](/makerguide/ui.md#the-menu))
 
 
 
@@ -40,6 +40,8 @@ Saving a map with the same name as a pre-existing map will completely overwrite 
 * Version - this is the constant version of the map, this only changes when resaving the map.
 
 ### Map Icon
+
+<img src="./gifs/icon.png" alt="spawn all" style="border-radius: 5px;" />
 
 The map icon is an image that is used as a cover for the map on the website (maybe not now but in the near future)
 

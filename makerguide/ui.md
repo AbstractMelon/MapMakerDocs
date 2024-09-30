@@ -17,7 +17,7 @@ If you use a program to open bopl battle with mods (r2modman etc..), you should 
 Otherwise, just pressing it would automatically open it with your current mod set.
 
 ### Save
-Opens the [save dialogue](/finish.md)
+Opens the [save dialogue](/makerguide/finish.md#save-dialogue)
 
 ### Load
 Opens a file selection dialogue, pick the map you want to load in map maker and start remixing it! :)
@@ -30,7 +30,7 @@ Opens the settings dialogue, the settings currently support configuration of:
 
 * Theme: currently the only themes that exist are *'Light'* (default), *'Dark'*, and *'Bopl'*.
 * Scale + Rotate: modify the key needed to swtich to the corresponding mode
-* Default Dev: allows the user to pick a name that will automatically be used for the *Developer* field in [save dialogue](/finish.md#save-dialogue)
+* Default Dev: allows the user to pick a name that will automatically be used for the *Developer* field in [save dialogue](/makerguide/finish.md#save-dialogue)
 
 ### Buy Us a Coffee
 If you want to reward us with a donation for the months we spent working on this project for free out of love for the game and a desire to give back to the community, you are welcome to do so! we are so thankful! :D
