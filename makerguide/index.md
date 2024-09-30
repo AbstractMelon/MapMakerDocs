@@ -11,13 +11,13 @@ Check out the sections below to dive into what you can do:
 - [Basic Map Making](./basic.md)  
   Learn how to create basic maps like you see on Bopl Battle!
 
-- [Useful Shortcuts](./shortcuts.md)  
-  Build cool maps, *with style*.
-
 - [What Do I Do Now??](./finish.md)  
   See what to do after you finished creating your awesome map!
 
-- [Lua Help Please](~/lua/)  
+- [Map Maker UI](./ui.md)  
+  Learn how to navigate the extremely simple and intuitive UI of map maker to make maps like a boss :)
+
+- [Lua Help Please](../lua/index.md)  
   Check out this nice batch of helpful lua pages just for you to learn how to use in your maps!
 
 ---
