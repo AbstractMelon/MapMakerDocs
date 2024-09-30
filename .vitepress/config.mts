@@ -11,11 +11,12 @@ export default defineConfig({
     logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Install Guide', link: '/makerguide/install-guide' },
+      { text: 'Maker\'s Guide', link: '/makerguide/' },
       { text: 'Lua Docs', link: '/lua/' },
-      { text: 'Maker\'s Guide', link: '/makersguide/' },
-      { text: 'Tips', link: '/tips/' },
+      { text: 'Lua Snippets', link: '/lua/useful-snippets' },
       { text: 'Troubleshooting', link: '/troubleshooting/' },
-      { text: 'Development', link: '/development/' },
+      { text: 'Changelog', link: '/changelog/' },
       { text: 'Links', link: '/links/' },
       { text: 'Credits', link: '/credits/' }
     ],
@@ -23,13 +24,24 @@ export default defineConfig({
       {
         text: 'Guide',
         items: [
+          { text: 'Install Guide', link: '/makerguide/install-guide' },
+          { text: 'Maker\'s Guide', link: '/makerguide/' },
           { text: 'Lua Docs', link: '/lua/' },
-          { text: 'Maker\'s Guide', link: '/makersguide/' },
-          { text: 'Tips', link: '/tips/' },
+          { text: 'Lua Snippets', link: '/lua/useful-snippets' },
           { text: 'Troubleshooting', link: '/troubleshooting/' },
-          { text: 'Development', link: '/development/' },
+          { text: 'Changelog', link: '/changelog/' },
           { text: 'Links', link: '/links/' },
-          { text: 'Credits', link: '/credits/' }
+          { text: 'Credits', link: '/credits/' },
+          { text: 'Notes', link: '/notes' }
+        ]
+      },
+      {
+        text: 'Maker\'s Guide',
+        items: [
+          { text: 'Index', link: '/makerguide/' },
+          { text: 'Basic Map Making', link: '/makerguide/basic' },
+          { text: 'Save/Publish Guide', link: '/makerguide/finish' },
+          { text: 'UI Guide', link: '/makerguide/ui' }
         ]
       },
       {
@@ -37,14 +49,11 @@ export default defineConfig({
         items: [
           { text: 'Overview', link: '/lua/' },
           { text: 'Sequence', link: '/lua/sequence' },
-          { text: 'Notes', link: '/lua/notes' },
           { text: 'Global Functions', link: '/lua/global-functions' },
           { text: 'Player Methods', link: '/lua/player-functions' },
           { text: 'Platform Methods', link: '/lua/platform-functions' },
           { text: 'BoplBody Methods', link: '/lua/boplbody-functions' },
-          { text: 'Errors', link: '/lua/errors' },
-          { text: 'Utilities & Constants', link: '/lua/utilities' },
-          { text: 'Default Lua APIs', link: '/lua/default-lua-apis' }
+          { text: 'Errors', link: '/lua/errors' }
         ]
       }      
     ]

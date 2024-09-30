@@ -10,8 +10,8 @@ Welcome to the Lua API docs the bopl map maker! Here, you’ll find all the  fun
 - [Arrays](./array.md)  
   Info about arrays, which are tables with numeric keys in order.
 
-- [Notes](./notes.md)  
-  Important things like camera boundaries and water height.
+- [Notes](../notes.md)  
+  Important things regarding map maker's technical details.
 
 - [Spawn Functions](./spawn-functions.md)  
   A list of functions related to spawning objects.

@@ -20,4 +20,7 @@ Check out the sections below to dive into what you can do:
 - [Lua Help Please](../lua/index.md)  
   Check out this nice batch of helpful lua pages just for you to learn how to use in your maps!
 
+- [Notes](../notes.md)  
+  Important things regarding map maker's technical details.
+
 ---
