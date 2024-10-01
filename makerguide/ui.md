@@ -2,6 +2,50 @@
 
 Map maker contains a very intuitive responsive UI system that helps the user efficiently create maps :)
 
+## The Inspector
+
+<video autoplay loop muted playsinline style="border-radius: 5px;">
+  <source src="./gifs/inspector.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+Clicking on a item opens up *the inspector*, a useful window for managing and viewing the item's data: position, rotation, id, etc...
+
+### Constant Data
+
+<img src="./gifs/constant.png" alt="spawn all" style="border-radius: 5px;" />
+
+These are the properties of the item that are unchangable, it's type (grass, snow, space, spawn, other..), it's name ("MediumCapsule", "Spawn4", etc...), and it's id.
+
+### Position Field
+
+<img src="./gifs/position.png" alt="spawn all" style="border-radius: 5px;" />
+
+The position field determines the location of the item in the world with (0, 0) symbolizing the center of the map.
+
+It is linked to the position of the item so moving the item will update it accordingly and modifying the field will move the item accordingly.
+
+## Inspector Components
+
+Every item has 4 basic fields: name, id, type, and position.
+
+Every other attribute is sorted into components (like in unity if you're familiar with that), each component containing modifiable attributes corresponding to it's goal.
+
+Currently the only existing component is [*"Resizable"*](#resizable).
+
+### Resizable
+
+<img src="./gifs/resizable.png" alt="spawn all" style="border-radius: 5px;" />
+
+The resizable component is automatically applied to every platform in game, it contains these attributes:
+
+- rotation (a float)
+- scale (a float)
+
+The resizable component handles rotating and scaling of items, thats why it isnt applied to spawn points for example.
+
+---
+
 ## The Menu
 
 <img src="./gifs/menu.png" alt="spawn all" style="border-radius: 5px;" />
