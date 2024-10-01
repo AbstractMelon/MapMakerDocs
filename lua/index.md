@@ -16,7 +16,7 @@ Welcome to the Lua API docs the bopl map maker! Here, you’ll find all the  fun
 - [Spawn Functions](./spawn-functions.md)  
   A list of functions related to spawning objects.
 
-- [Raycast Functions](./spawn-functions.md)  
+- [Raycast Functions](./raycast-functions.md)  
   Functions the get/shoot an object/ray from the scene based on a point, angle, or index.
 
 - [Miscellaneous Functions](./misc-functions.md)  

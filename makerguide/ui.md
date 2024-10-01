@@ -44,7 +44,7 @@ The resizable component is automatically applied to every platform in game, it c
 
 The resizable component handles rotating and scaling of items, thats why it isnt applied to spawn points for example.
 
----
+
 
 ## The Menu
 

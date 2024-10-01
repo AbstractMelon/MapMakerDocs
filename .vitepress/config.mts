@@ -17,7 +17,6 @@ export default defineConfig({
       { text: 'Lua Snippets', link: '/lua/useful-snippets' },
       { text: 'Troubleshooting', link: '/troubleshooting/' },
       { text: 'Changelog', link: '/changelog/' },
-      { text: 'Links', link: '/links/' },
       { text: 'Credits', link: '/credits/' }
     ],
     sidebar: [
@@ -29,16 +28,12 @@ export default defineConfig({
           { text: 'Lua Docs', link: '/lua/' },
           { text: 'Lua Snippets', link: '/lua/useful-snippets' },
           { text: 'Troubleshooting', link: '/troubleshooting/' },
-          { text: 'Changelog', link: '/changelog/' },
-          { text: 'Links', link: '/links/' },
-          { text: 'Credits', link: '/credits/' },
           { text: 'Notes', link: '/notes' }
         ]
       },
       {
         text: 'Maker\'s Guide',
         items: [
-          { text: 'Index', link: '/makerguide/' },
           { text: 'Basic Map Making', link: '/makerguide/basic' },
           { text: 'Save/Publish Guide', link: '/makerguide/finish' },
           { text: 'UI Guide', link: '/makerguide/ui' }
@@ -47,12 +42,13 @@ export default defineConfig({
       {
         text: 'Lua Documentation',
         items: [
-          { text: 'Overview', link: '/lua/' },
-          { text: 'Sequence', link: '/lua/sequence' },
-          { text: 'Global Functions', link: '/lua/global-functions' },
-          { text: 'Player Methods', link: '/lua/player-functions' },
-          { text: 'Platform Methods', link: '/lua/platform-functions' },
-          { text: 'BoplBody Methods', link: '/lua/boplbody-functions' },
+          { text: 'Lua Snippets', link: '/lua/useful-snippets' },
+          { text: 'Spawn Functions', link: '/lua/spawn-functions' },
+          { text: 'Raycast Functions', link: '/lua/raycast-functions' },
+          { text: 'Misc Functions', link: '/lua/misc-functions' },
+          { text: 'Player', link: '/lua/player' },
+          { text: 'Platform', link: '/lua/platform' },
+          { text: 'BoplBody', link: '/lua/boplbody' },
           { text: 'Errors', link: '/lua/errors' }
         ]
       }      
