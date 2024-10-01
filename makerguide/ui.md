@@ -50,6 +50,9 @@ The resizable component handles rotating and scaling of items, thats why it isnt
 
 <img src="./gifs/menu.png" alt="spawn all" style="border-radius: 5px;" />
 
+### Type
+A dropdown menu to determine the type of the map (grass, snow, or space)
+
 ### Clear
 Clears the map *and* the map data (*name*, *description*, etc..), basically works just like closing and reopening the maker except its much easier :P
 
