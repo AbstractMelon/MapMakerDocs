@@ -6,6 +6,9 @@ export default defineConfig({
   head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
   base: '/MapMakerDocs/',
   ignoreDeadLinks: true,
+  markdown: {
+    emoji: false
+  },
   themeConfig: {
     siteTitle: 'Map Maker Docs',
     logo: '/logo.png',
