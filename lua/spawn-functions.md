@@ -59,7 +59,7 @@ SpawnSmokeGrenade(0, 10, 1, 0, -3, 1)
 ### Spawn Boulder
 Spawns a boulder with a given position, scale, velocity, angular velocity, type, and color.
 
-~ valid types are: "grass", "snow", "ice", "space", "slime"
+~ valid types are: "grass", "snow", "ice", "robot", "space", "slime"
 
 ```
 SpawnBoulder(number x, number y, number scale, number xVel, number yVel, number angularVel, string type, number R, number G, number B, number A)
