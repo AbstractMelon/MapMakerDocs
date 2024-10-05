@@ -51,7 +51,7 @@ export default defineConfig({
           { text: 'Misc Functions', link: '/lua/misc-functions' },
           { text: 'Player', link: '/lua/player' },
           { text: 'Platform', link: '/lua/platform' },
-          { text: 'BoplBody', link: '/lua/boplbody' },
+          { text: 'BoplBody', link: '/lua/bopl-body' },
           { text: 'Errors', link: '/lua/errors' }
         ]
       }      
